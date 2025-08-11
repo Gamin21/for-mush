@@ -1,0 +1,69 @@
+/* Reset and base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff0f6;
+  font-family: 'Quicksand', sans-serif;
+  color: #b85c88;
+  text-align: center;
+  padding: 60px 20px;
+  user-select: none;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title with script font */
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  color: #d65a8a;
+  text-shadow: 1px 1px 6px #f5b6cd;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+p.subtitle {
+  font-size: 1.4rem;
+  margin-bottom: 35px;
+  color: #a8507f;
+  letter-spacing: 1.3px;
+}
+
+/* Button */
+button {
+  background: linear-gradient(135deg, #f78ca0, #f9748f);
+  border: none;
+  padding: 16px 50px;
+  border-radius: 40px;
+  color: white;
+  font-size: 1.6rem;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(247, 140, 160, 0.6);
+  transition: all 0.3s ease;
+  font-weight: 700;
+  user-select: none;
+  letter-spacing: 1px;
+}
+button:hover {
+  background: linear-gradient(135deg, #f9748f, #f78ca0);
+  box-shadow: 0 14px 25px rgba(247, 140, 160, 0.8);
+  transform: scale(1.1);
+}
+
+/* Message */
+#message {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #d14f7f;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  min-height: 2.5rem;
+}
